@@ -1,12 +1,14 @@
-html, body{
+html, body {
     margin: 0;
-    padding:0%;
+    padding: 0;
     min-height: 100%;
 }
+
 .main-header{
-    background-color: aqua;
+    background-color:bisque;
     background-size: cover;
     padding: 1em;
+    padding-left: 0%;
 }
 
 
@@ -24,4 +26,50 @@ html, body{
     text-align: center;
     font-size: larger;
 }
-
+.text{
+    font-size: larger;
+    text-align: center;
+    text-decoration:solid;
+}
+.image{
+    float: left;
+    margin-bottom: 30px;
+    padding-left:3em;
+    padding-right: 3em;
+    border-radius: 50%;
+    height: 300px;
+    width: 215px;
+}
+.para{
+    font-size: 1.25em;
+    padding: 5em;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-right: 15em;
+}
+.sec-para{
+    font-size: 1.25em;
+}
+.new-header{
+    text-align: center;
+    color: rgba(67, 8, 8, 0.653);
+}
+.main-footer{
+    background-color:bisque;
+    background-size: cover;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    
+}
+.footer-head{
+    text-align: center;
+    color: rgba(67, 8, 8, 0.653);
+    font-size: 2em;
+}
+.ul-foot{
+    font-size: 1.25em;
+}
+.ul-foot li{
+    display: inline;
+    padding: 7.5em;
+}
